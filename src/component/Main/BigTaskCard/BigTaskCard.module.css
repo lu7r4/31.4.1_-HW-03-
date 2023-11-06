@@ -1,0 +1,42 @@
+.bigTaskCard {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100vw - 52px);;
+    height: calc(100vh - 154px);
+
+    padding: 17px 23px 0 28px;
+    margin: 0 auto;
+    margin-top: 22px;
+
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.bigTaskCard svg {
+    cursor: pointer;
+}
+
+.bigTaskCard__description h3 {
+    max-width: 621px;
+    margin-top: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+}
+
+.bigTaskCard__description p {
+    max-width: 621px;
+    margin-top: 35px;
+    margin-left: 2px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #000000;
+}

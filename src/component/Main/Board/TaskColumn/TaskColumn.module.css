@@ -1,0 +1,40 @@
+.column {
+    display: block;
+    width: 282px;
+    padding: 12px 0 7px 12px;
+    background: #d258e70e;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    margin-left: 24px;
+    margin-top: 20px;
+}
+
+.column h3 {
+    color: #5f4848;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: capitalize
+}
+
+.tasks__wrapper {
+    max-height: 400px;
+    overflow: auto;
+    scrollbar-color:  #d37d7d #FFFFFF;
+}
+
+.tasks__wrapper::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+    border-radius: 5px;
+}
+
+.tasks__wrapper::-webkit-scrollbar-thumb { 
+    background: #fab3b394;
+    border-radius: 5px;
+}
+
+.tasks__wrapper::-webkit-scrollbar-track { 
+    background: #FFFFFF;
+}

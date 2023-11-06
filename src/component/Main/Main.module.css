@@ -1,0 +1,12 @@
+.main {
+    min-height: calc(100vh - 110px);
+    background-color:  #7300bf11;
+}
+
+.main__wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    max-width: 1235px;
+    margin: 0 auto;
+}

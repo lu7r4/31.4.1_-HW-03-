@@ -1,0 +1,25 @@
+.myButtonChange {
+    width: 102px;
+    height: 29px;
+    margin-top: 12px;
+
+    background: #0079BF;
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.myButtonChange:hover {
+    transform: scale(0.9);
+}
+
+.myButtonChange:active {
+    transform: scale(1.1);
+}
